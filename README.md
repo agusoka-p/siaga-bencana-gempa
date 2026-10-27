@@ -1,6 +1,5 @@
-# Siaga Bencana Gempa
+# Siaga Gempa
 Website Edukasi Mitigasi Bencana Gempa Bumi
-SDG 11 dan SDG 13
 
 ## Anggota Kelompok
 1. I Putu Agus Oka Pradana - 2515091002 - Tugas
