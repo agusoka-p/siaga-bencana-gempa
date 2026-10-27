@@ -1058,7 +1058,64 @@ button {
         grid-template-columns: 1fr;
     }
 }
- 
+
+.artikel-baris {
+    display: grid;
+    grid-template-columns: minmax(0, 420px) 1fr;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 56px;
+}
+
+.artikel-baris.balik {
+    grid-template-columns: 1fr minmax(0, 420px);
+}
+
+.artikel-baris.balik .artikel-gambar {
+    order: 2;
+}
+
+.artikel-gambar {
+    width: 100%;
+    max-width: 420px;
+    margin: 0;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background-color: var(--blue-light);
+    box-shadow: 0 8px 24px rgba(10, 32, 51, 0.04);
+}
+
+.artikel-gambar svg {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.artikel-gambar figcaption {
+    padding: 10px 16px;
+    background-color: var(--white);
+    color: var(--text-muted);
+    font-size: 13px;
+    font-style: italic;
+}
+
+@media (max-width: 900px) {
+    .artikel-baris,
+    .artikel-baris.balik {
+        grid-template-columns: 1fr;
+        gap: 24px;
+        margin-bottom: 44px;
+    }
+
+    .artikel-baris.balik .artikel-gambar {
+        order: 0;
+    }
+
+    .artikel-gambar {
+        margin: 0 auto;
+    }
+}
 /* ==================================================
    BERITA GEMPA END
 ================================================== */
