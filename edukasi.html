@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Edukasi Gempa Bumi | EduGempa</title>
+
+    <!-- CSS bersama tim: layout dasar style.css dipertahankan, penyesuaian dihimpun dengan skop .page-edukasi -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font dari Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-edukasi">
+
+    <!-- NAVIGATION -->
+    <header class="header">
+        <nav class="navbar container" aria-label="Navigasi utama">
+
+            <!-- Navigates to the homepage: index.html -->
+            <a href="index.html" class="logo">
+                <span class="logo-mark" aria-hidden="true">G</span>
+                EduGempa
+            </a>
+
+            <button
+                class="nav-toggle"
+                type="button"
+                aria-label="Buka menu navigasi"
+                aria-controls="primary-navigation"
+                aria-expanded="false"
+            >
+                <span aria-hidden="true">☰</span>
+            </button>
+
+            <ul class="nav-menu" id="primary-navigation">
+                <!-- Navigation link: Home page (index.html) -->
+                <li><a href="index.html">Beranda</a></li>
+                <!-- Navigation link: Education page (current) -->
+                <li><a href="edukasi.html" class="active" aria-current="page">Edukasi</a></li>
+                <li><a href="fakta.html">Fakta Gempa</a></li>
+                <li><a href="tentang.html">Tentang</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- 1. KATEGORI: KONSEP -->
+        <section class="section" id="konsep" aria-labelledby="heading-konsep">
+            <div class="container">
+
+                <div class="section-heading" id="pengertian">
+                    <p class="section-label">1. KONSEP</p>
+                    <h2 id="heading-konsep">Konsep Dasar Gempa Bumi</h2>
+
+                    <p>
+                        Pemahaman fundamental mengenai definisi gempa bumi, mekanisme pelepasan
+                        energi elastis batuan, serta klasifikasi proses pembangkitannya.
+                    </p>
+                </div>
+
+                <div class="article-content">
+
+                    <h3>Mekanisme Terjadinya Gempa Bumi</h3>
+
+                    <p>
+                        <strong>Gempa bumi</strong> adalah peristiwa getaran atau guncangan yang terjadi di
+                        permukaan bumi akibat pelepasan energi secara mendadak dari dalam kerak bumi.
+                        Pelepasan energi ini dipicu oleh patahnya atau bergesernya lapisan batuan
+                        di sepanjang bidang sesar (<em>fault</em>) setelah akumulasi tegangan melampaui batas elastisnya.
+                    </p>
+
+                    <p>
+                        Energi yang terlepas memancar ke segala arah melalui lapisan litosfer dalam
+                        bentuk <strong>gelombang seismik</strong>. Ketika gelombang getaran tersebut merambat hingga
+                        mencapai permukaan, tanah beserta struktur bangunan di atasnya ikut berguncang.
+                    </p>
+
+                    <figure>
+                        <img
+                            src="assets/diagram-mekanisme-gempa.jpg"
+                            alt="Diagram mekanisme gempa bumi yang menunjukkan retakan, hiposentrum, episentrum, dan gelombang seismik"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            Ilustrasi mekanisme gempa bumi yang memperlihatkan bidang patahan, titik hiposentrum di kedalaman, episentrum di permukaan, dan rambatan gelombang seismik.
+                            <span class="image-source">
+                                Sumber gambar:
+                                <a
+                                    href="https://www.katalogika.com/edukasi/pr-1441588390/gempa-berdasarkan-bentuk-episentrum"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >Katalogika - Gempa Berdasarkan Bentuk Episentrum</a>.
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                    <h3>Klasifikasi Jenis Gempa Bumi</h3>
+
+                    <p>
+                        Berdasarkan proses fisis dan penyebab geologis pembangkitannya, gempa bumi
+                        diklasifikasikan ke dalam tiga jenis utama:
+                    </p>
+
+                </div>
+
+                <!-- KARTU JENIS GEMPA -->
+                <div class="card-grid" id="penyebab">
+
+                    <article class="info-card">
+                        <div class="card-number">01</div>
+
+                        <figure>
+                            <img
+                            src="assets/gempa-tektonik.jpg"
+                            alt="Ilustrasi pergeseran dua blok lempeng tektonik di sepanjang bidang patahan aktif yang memicu pelepasan energi gempa tektonik"
+                            loading="lazy"
+                        >
+                            <figcaption>
+                                <span class="image-caption">Ilustrasi gempa tektonik.</span>
+                                <span class="image-source">
+                                    Sumber gambar:
+                                    <a
+                                        href="https://jogjapolitan.harianjogja.com/r-1181162/lagi-wilayah-batang-jateng-digoyang-gempa-tektonik-magnitudo-3-pagi-ini"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >Harian Jogja - Gempa Tektonik Magnitudo 3 Guncang Wilayah Batang, Jawa Tengah</a>.
+                                </span>
+                            </figcaption>
+                        </figure>
+
+                        <h3>Gempa Tektonik</h3>
+
+                        <p>
+                            Terjadi akibat pelepasan tegangan mendadak ketika blok batuan di sepanjang
+                            bidang sesar bergeser didorong pergerakan lempeng tektonik. Jenis ini merupakan
+                            penyebab sebagian besar gempa kuat dan merusak di Indonesia maupun dunia.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-number">02</div>
+
+                        <figure>
+                            <img
+                            src="assets/gempa-vulkanik.jpg"
+                            alt="Ilustrasi penampang gunung berapi yang menunjukkan naiknya magma dan gas vulkanik melalui rekahan batuan sehingga memicu gempa vulkanik"
+                            loading="lazy"
+                        >
+                            <figcaption>
+                                <span class="image-caption">Ilustrasi gempa vulkanik.</span>
+                                <span class="image-source">
+                                    Sumber gambar:
+                                    <a
+                                        href="https://www.kompas.com/skola/read/2025/04/05/121000269/apa-yang-dimaksud-dengan-gempa-vulkanik-ini-contohnya-"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >Kompas.com - Pengertian Gempa Vulkanik dan Contohnya</a>.
+                                </span>
+                            </figcaption>
+                        </figure>
+
+                        <h3>Gempa Vulkanik</h3>
+
+                        <p>
+                            Dipicu oleh dinamika fluida magmatik dan gas bertekanan tinggi yang bergerak
+                            naik di dalam tubuh gunung berapi. Tekanan fluida meretakkan batuan di sekitarnya
+                            dan menimbulkan getaran seismik sebelum maupun selama fase erupsi.
+                        </p>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-number">03</div>
+
+                        <figure>
+                            <img
+                            src="assets/gempa-runtuhan.jpg"
+                            alt="Ilustrasi runtuhnya atap gua karst atau rongga bawah tanah akibat gravitasi yang menimbulkan getaran gempa runtuhan secara lokal"
+                            loading="lazy"
+                        >
+                            <figcaption>
+                                <span class="image-caption">Ilustrasi gempa runtuhan.</span>
+                                <span class="image-source">
+                                    Sumber gambar:
+                                    <a
+                                        href="https://www.zenius.net/blog/penyebab-terjadinya-gempa-bumi/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                    >Zenius - Penyebab Terjadinya Gempa Bumi</a>.
+                                </span>
+                            </figcaption>
+                        </figure>
+
+                        <h3>Gempa Runtuhan</h3>
+
+                        <p>
+                            Terjadi akibat runtuhnya atap gua bawah tanah pada formasi batuan kapur (karst),
+                            terowongan tambang, atau longsoran massa batuan besar di lereng curam. Getaran
+                            seismik yang ditimbulkan berpusat dangkal dan berdampak lokal.
+                        </p>
+                    </article>
+
+                </div>
+
+                <!-- KONSEP GEOMETRI SUMBER -->
+                <div class="article-content">
+
+                    <h3>Geometri Sumber: Hiposentrum dan Episentrum</h3>
+
+                    <p>
+                        Dalam menentukan lokasi gempa bumi secara spasial, para ahli kebumian menggunakan dua
+                        parameter geometri utama yang saling berhubungan:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Hiposentrum (Fokus Gempa):</strong> Titik rekahan awal di dalam kerak atau mantel
+                            bumi tempat energi seismik pertama kali dilepaskan. Posisi hiposentrum ditentukan berdasarkan
+                            koordinat lintang-bujur dan parameter kedalaman (kilometer).
+                        </li>
+                        <li>
+                            <strong>Episentrum:</strong> Titik pada permukaan bumi yang berada tepat tegak lurus
+                            secara vertikal di atas hiposentrum. Episentrum digunakan untuk memetakan jarak pusat
+                            gempa terhadap wilayah permukiman terdekat.
+                        </li>
+                    </ul>
+
+                    <figure>
+                        <img
+                            src="assets/diagram-hiposentrum-episentrum.jpg"
+                            alt="Diagram tiga dimensi yang memperlihatkan perbedaan posisi hiposentrum di kedalaman bidang patahan dan titik episentrum tepat di atasnya pada permukaan bumi"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            Diagram posisi hiposentrum di dalam kedalaman kerak bumi dan titik episentrum pada permukaan bumi.
+                            <span class="image-source">
+                                Sumber gambar:
+                                <a>AI Generate - Gemini</a>.
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 2. KATEGORI: ISU -->
+        <section class="section section-alt" id="isu" aria-labelledby="heading-isu">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">2. ISU</p>
+                    <h2 id="heading-isu">Isu Kegempaan dan Dinamika Tektonik</h2>
+
+                    <p>
+                        Isu-isu geologis krusial seputar akumulasi energi pada batas lempeng aktif
+                        dan kerentanan kondisi tanah permukaan terhadap amplifikasi getaran.
+                    </p>
+                </div>
+
+                <div class="article-content">
+
+                    <h3>Akumulasi Tegangan pada Zona Batas Lempeng Terkunci</h3>
+
+                    <p>
+                        Lapisan litosfer terluar bumi terbagi menjadi lempeng-lempeng tektonik yang terus bergerak
+                        dengan kecepatan beberapa milimeter hingga belasan sentimeter setiap tahunnya. Di kawasan
+                        pertemuan antarlempeng—khususnya zona batas konvergen (subduksi) seperti di selatan Jawa,
+                        Sumatera, dan Bali—bidang kontak batuan sering kali <strong>saling mengunci (<em>locked</em>)</strong>
+                        akibat gaya gesek batuan yang sangat masif.
+                    </p>
+
+                    <p>
+                        Kondisi terkunci ini menimbulkan <strong>isu akumulasi tegangan (<em>stress accumulation</em>)</strong>
+                        yang terus menumpuk selama puluhan hingga ratusan tahun. Ketika batas kekuatan elastis batuan
+                        terlampaui, bidang sesar terlepas seketika (<em>elastic rebound</em>), melepaskan energi regangan
+                        secara masif sebagai gempa tektonik berkekuatan besar.
+                    </p>
+
+                    <h3>Kerentanan Efek Tapak Lokal dan Ancaman Likuifaksi</h3>
+
+                    <p>
+                        Isu bahaya gempa pada kawasan permukiman sangat dipengaruhi oleh kondisi tanah permukaan setempat.
+                        Wilayah yang dibangun di atas endapan aluvial lunak, tanah lempung tebal, atau lahan hasil reklamasi
+                        mengalami <strong>amplifikasi getaran tanah (<em>site effect</em>)</strong>, di mana gelombang
+                        seismik tertahan dan diperbesar amplitudonya dibandingkan kawasan batuan dasar keras.
+                    </p>
+
+                    <p>
+                        Selain amplifikasi getaran, guncangan gempa kuat pada tanah berpasir jenuh air dapat memicu
+                        fenomena bahaya <strong>likuifaksi</strong>, yaitu hilangnya kekuatan geser tanah secara drastis
+                        sehingga tanah kehilangan daya dukung beban dan berperilaku layaknya cairan. Fenomena ini dapat
+                        menyebabkan fondasi bangunan ambles, bergeser, atau amblas seketika ke dalam tanah.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 3. KATEGORI: PERMASALAHAN -->
+        <section class="section" id="permasalahan" aria-labelledby="heading-permasalahan">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">3. PERMASALAHAN</p>
+                    <h2 id="heading-permasalahan">Permasalahan dan Kesalahpahaman Risiko Gempa</h2>
+
+                    <p>
+                        Tantangan persepsi publik mengenai parameter ilmiah kegempaan,
+                        serta permasalahan kerentanan struktur fisik bangunan terhadap beban getaran.
+                    </p>
+                </div>
+
+                <div class="article-content">
+
+                    <h3>Kesalahpahaman Antara Magnitudo dan Intensitas</h3>
+
+                    <p>
+                        Salah satu permasalahan mendasar dalam pemahaman publik adalah menyamakan istilah
+                        <strong>magnitudo</strong> dengan <strong>intensitas</strong>, padahal keduanya
+                        mengukur parameter ilmiah yang sama sekali berbeda:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Magnitudo:</strong> Mengukur total energi yang dilepaskan pada pusat gempa
+                            berdasarkan rekaman seismograf. Setiap peristiwa gempa hanya memiliki <strong>satu nilai magnitudo</strong>
+                            yang bersifat objektif dan bernilai sama di mana pun diukur.
+                        </li>
+                        <li>
+                            <strong>Intensitas (Skala MMI):</strong> Mengukur derajat kekuatan guncangan yang dirasakan
+                            manusia serta tingkat kerusakan fisik nyata pada lokasi tertentu. Satu peristiwa gempa menghasilkan
+                            <strong>banyak nilai intensitas</strong> yang bervariasi bergantung pada jarak dari sumber dan kondisi geologi setempat.
+                        </li>
+                    </ul>
+
+                    <blockquote>
+                        <strong>Analogi Ilmiah:</strong> Sebuah bola lampu berdaya 100 Watt adalah gambaran magnitudo
+                        (nilai energi di sumber tetap 100 Watt). Sementara terangnya cahaya yang dirasakan pada jarak
+                        1 meter dibandingkan 50 meter adalah gambaran intensitas (semakin jauh dari sumber, getaran dan dampaknya semakin melemah).
+                    </blockquote>
+
+                    <h3>Kerancuan Penilaian Bahaya Berdasarkan Kedalaman Semata</h3>
+
+                    <p>
+                        Permasalahan lain di masyarakat adalah anggapan keliru bahwa bahaya gempa dapat dinilai semata-mata
+                        hanya dari kedalamannya saja. Memang benar gempa berpusat dangkal (0–70 km) menyalurkan energi yang
+                        belum banyak teredam ke permukaan. Namun, gempa berkedalaman menengah hingga dalam jika memiliki magnitudo
+                        yang sangat besar tetap mampu merambatkan getaran kuat di wilayah geografis yang luas.
+                    </p>
+
+                    <p>
+                        Dampak kerusakan nyata gempa bumi selalu merupakan fungsi simultan dari magnitudo, kedalaman hiposentrum,
+                        jarak episentral, serta kondisi geologi lokal.
+                    </p>
+
+                    <h3>Kerentanan Konstruksi Bangunan Terhadap Beban Getaran</h3>
+
+                    <p>
+                        Permasalahan utama penyebab timbulnya korban jiwa dan kerusakan fisik saat bencana bukanlah guncangan tanah
+                        itu sendiri, melainkan keruntuhan struktur bangunan buatan manusia. Gelombang seismik permukaan
+                        (terutama gelombang Love dan Rayleigh) menghasilkan getaran bolak-balik horizontal dan bergulung
+                        yang memberi beban geser ekstrem pada kolom serta balok penopang.
+                    </p>
+
+                    <p>
+                        Bangunan pasangan bata tanpa tulangan pengikat, sambungan kolom-balok yang rapuh, serta fondasi
+                        yang tidak terikat kaku menjadi penyebab langsung mengapa bangunan roboh saat diguncang gempa.
+                    </p>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- 4. KATEGORI: FAKTA RELEVAN -->
+        <section class="section section-alt" id="fakta" aria-labelledby="heading-fakta">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-label">4. FAKTA RELEVAN</p>
+                    <h2 id="heading-fakta">Fakta Ilmiah Kegempaan</h2>
+
+                    <p>
+                        Fakta-fakta penting mengenai karakteristik perambatan gelombang seismik,
+                        zona kedalaman hiposentrum, dan tipe interaksi batas lempeng tektonik.
+                    </p>
+                </div>
+
+                <div class="article-content">
+
+                    <h3>Karakteristik Tiga Kelompok Gelombang Seismik</h3>
+
+                    <p>
+                        Saat batuan kerak bumi terdeformasi dan patah, energi regangan elastis memancar melalui interior bumi
+                        sebagai gelombang badan (<em>body waves</em>) dan menyusuri lapisan kerak terluar sebagai gelombang permukaan (<em>surface waves</em>):
+                    </p>
+
+                    <ol>
+                        <li>
+                            <strong>Gelombang Primer (Gelombang P):</strong> Gelombang badan tercepat yang tiba pertama kali
+                            di stasiun pencatat gempa. Bergerak secara kompresional (tarik-dorong searah arah rambat)
+                            dan mampu menembus medium batuan padat maupun fluida cair.
+                        </li>
+                        <li>
+                            <strong>Gelombang Sekunder (Gelombang S):</strong> Gelombang badan transversal dengan kecepatan
+                            sekitar 60% dari gelombang P. Menggerakkan partikel batuan tegak lurus arah rambat dan hanya
+                            dapat bergerak melalui medium padat.
+                        </li>
+                        <li>
+                            <strong>Gelombang Permukaan (Gelombang Love &amp; Rayleigh):</strong> Merambat paling lambat di lapisan
+                            terluar kerak bumi, namun memiliki amplitudo dan periode getaran paling besar sehingga menjadi
+                            penyebab utama deformasi tanah dan kerusakan struktur bangunan.
+                        </li>
+                    </ol>
+
+                    <figure>
+                        <img
+                            src="assets/diagram-gelombang-seismik.jpg"
+                            alt="Diagram perbandingan pola rambatan Gelombang P (tarik-dorong), Gelombang S (geser tegak lurus), dan Gelombang Permukaan (Love dan Rayleigh)"
+                            loading="lazy"
+                        >
+
+                        <figcaption>
+                            Perbandingan mekanisme arah rambat dan arah getar partikel pada Gelombang P, Gelombang S, dan Gelombang Permukaan.
+                            <span class="image-source">
+                                Sumber gambar:
+                                <a>AI Generate - Gemini</a>.
+                            </span>
+                        </figcaption>
+                    </figure>
+
+                    <h3>Klasifikasi Tiga Zona Kedalaman Sumber Gempa</h3>
+
+                    <p>
+                        Hiposentrum gempa bumi dikelompokkan ke dalam tiga zona kedalaman berdasarkan posisi rekahan di dalam litosfer dan mantel bumi:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Gempa Dangkal (0 – 70 km):</strong> Terjadi pada kerak bumi dangkal atau zona sesar aktif.
+                            Pelemahan energi gelombang seismik relatif kecil saat mencapai permukaan permukiman.
+                        </li>
+                        <li>
+                            <strong>Gempa Menengah (70 – 300 km):</strong> Terjadi pada lempeng samudra yang menunjam ke dalam
+                            mantel atas di zona subduksi (jalur Wadati-Benioff).
+                        </li>
+                        <li>
+                            <strong>Gempa Dalam (300 – 700+ km):</strong> Terjadi di bagian dalam lempeng subduksi yang dingin
+                            pada mantel bumi; getaran di permukaan umumnya lebih teredam namun radius getarannya dapat dirasakan sangat luas.
+                        </li>
+                    </ul>
+
+                    <h3>Tiga Tipe Interaksi Batas Lempeng Tektonik</h3>
+
+                    <p>
+                        Aktivitas seismik global berpusat di sepanjang batas interaksi lempeng litosfer yang terbagi menjadi tiga mekanisme geologis:
+                    </p>
+
+                    <ul>
+                        <li>
+                            <strong>Batas Konvergen (Tumbukan/Subduksi):</strong> Dua lempeng saling bergerak mendekat dan salah satu
+                            menunjam ke bawah lempeng lainnya, seperti penunjaman Lempeng Indo-Australia ke bawah Lempeng Eurasia.
+                        </li>
+                        <li>
+                            <strong>Batas Transform (Sesar Geser Mendatar):</strong> Dua lempeng saling bergeser secara horizontal
+                            berpapasan di sepanjang bidang sesar geser aktif, seperti Sesar Semangko di Sumatera atau Sesar San Andreas.
+                        </li>
+                        <li>
+                            <strong>Batas Divergen (Pemekaran):</strong> Dua lempeng bergerak saling menjauh di punggung tengah samudra,
+                            membuka rekahan tempat magma baru naik membentuk kerak samudra.
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+
+            <h3>EduGempa</h3>
+
+            <p>
+                Media edukasi untuk mengenal fenomena gempa bumi
+                melalui informasi dan pengetahuan ilmiah.
+            </p>
+
+            <div class="footer-bottom">
+                <p>
+                    &copy; 2024 EduGempa. Seluruh hak cipta dilindungi undang-undang.
+                </p>
+
+                <ul class="footer-links">
+                    <!-- Navigates to the Konsep section on this page -->
+                    <li><a href="#konsep">Konsep</a></li>
+                    <!-- Navigates to the Isu section on this page -->
+                    <li><a href="#isu">Isu</a></li>
+                    <!-- Navigates to the Permasalahan section on this page -->
+                    <li><a href="#permasalahan">Permasalahan</a></li>
+                    <!-- Navigates to the Fakta section on this page -->
+                    <li><a href="#fakta">Fakta</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>
