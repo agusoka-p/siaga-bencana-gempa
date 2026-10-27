@@ -926,3 +926,140 @@ button {
         padding: 20px;
     }
 }
+
+/* ==================================================
+   FAKTA END
+================================================== */
+.berita-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 20px;
+}
+ 
+.berita-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    border-radius: 18px;
+    background-color: var(--white);
+    box-shadow: 0 8px 24px rgba(10, 32, 51, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+ 
+.berita-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 14px 32px rgba(10, 32, 51, 0.09);
+}
+ 
+.berita-thumb {
+    position: relative;
+    display: flex;
+    min-height: 150px;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 16px;
+    overflow: hidden;
+    isolation: isolate;
+    background: linear-gradient(135deg, var(--blue-dark) 0%, var(--blue) 100%);
+    color: var(--white);
+}
+
+.berita-img {
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.berita-thumb::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(135deg, rgba(10, 32, 51, 0.88) 0%, rgba(23, 106, 138, 0.62) 100%);
+}
+ 
+.berita-tag {
+    position: absolute;
+    top: 14px;
+    left: 14px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    background-color: var(--green);
+    color: var(--blue-dark);
+    font-size: 12px;
+    font-weight: bold;
+}
+ 
+.berita-mag {
+    font-family: "Manrope", Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 1.1;
+}
+ 
+.berita-lokasi {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 14px;
+}
+ 
+.berita-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 18px;
+}
+ 
+.berita-meta {
+    margin-bottom: 8px;
+    color: var(--text-muted);
+    font-size: 13px;
+}
+ 
+.berita-body h3 {
+    margin-bottom: 8px;
+    color: var(--blue-dark);
+    font-family: "Manrope", Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.35;
+}
+ 
+.berita-body p:not(.berita-meta) {
+    margin-bottom: 16px;
+    color: var(--text-muted);
+    font-size: 14px;
+}
+ 
+.berita-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: auto;
+    color: var(--blue);
+    font-size: 14px;
+    font-weight: bold;
+}
+ 
+.berita-link:hover {
+    color: var(--blue-dark);
+}
+ 
+@media (max-width: 900px) {
+    .berita-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+ 
+@media (max-width: 680px) {
+    .berita-grid {
+        grid-template-columns: 1fr;
+    }
+}
+ 
+/* ==================================================
+   BERITA GEMPA END
+================================================== */
+ 
