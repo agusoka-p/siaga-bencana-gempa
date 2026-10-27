@@ -4,49 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Edukasi Gempa Bumi | EduGempa</title>
+    <title>Edukasi | Siaga Gempa</title>
+    <meta name="description" content="Materi edukasi tentang konsep dasar gempa bumi, isu kegempaan, permasalahan, dan fakta ilmiah.">
 
-    <!-- CSS bersama tim: layout dasar style.css dipertahankan, penyesuaian dihimpun dengan skop .page-edukasi -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Font dari Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
 </head>
 
 <body class="page-edukasi">
 
-    <!-- NAVIGATION -->
     <header class="header">
-        <nav class="navbar container" aria-label="Navigasi utama">
-
-            <!-- Navigates to the homepage: index.html -->
-            <a href="index.html" class="logo">
-                <span class="logo-mark" aria-hidden="true">G</span>
-                EduGempa
+        <div class="container navbar">
+            <a class="logo" href="index.html" aria-label="Siaga Gempa beranda">
+                <span class="logo-mark" aria-hidden="true">SG</span>
+                <span>Siaga Gempa</span>
             </a>
 
-            <button
-                class="nav-toggle"
-                type="button"
-                aria-label="Buka menu navigasi"
-                aria-controls="primary-navigation"
-                aria-expanded="false"
-            >
-                <span aria-hidden="true">☰</span>
+            <button class="nav-toggle" type="button" aria-label="Buka menu" aria-expanded="false" aria-controls="nav-menu">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                    <path d="M4 7H20M4 12H20M4 17H20" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                </svg>
             </button>
 
-            <ul class="nav-menu" id="primary-navigation">
-                <!-- Navigation link: Home page (index.html) -->
-                <li><a href="index.html">Beranda</a></li>
-                <!-- Navigation link: Education page (current) -->
-                <li><a href="edukasi.html" class="active" aria-current="page">Edukasi</a></li>
-                <li><a href="fakta.html">Fakta Gempa</a></li>
-                <li><a href="tentang.html">Tentang</a></li>
-            </ul>
-
-        </nav>
+            <nav id="nav-menu" class="nav-panel" aria-label="Navigasi utama">
+                <ul class="nav-menu">
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="edukasi.html" class="active" aria-current="page">Edukasi</a></li>
+                    <li><a href="index.html#panduan">Panduan</a></li>
+                    <li><a href="index.html#fakta">Fakta</a></li>
+                    <li><a href="tentang.html">Tentang</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
@@ -495,36 +489,70 @@
     </main>
 
 
-    <!-- FOOTER -->
+    <!-- FOOTER: mengikuti struktur bersama halaman Beranda dan Tentang -->
     <footer class="footer">
         <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h2>Siaga Gempa</h2>
+                    <p>Website edukasi mitigasi bencana gempa bumi untuk meningkatkan kesiapsiagaan masyarakat.</p>
+                </div>
 
-            <h3>EduGempa</h3>
+                <div class="footer-col">
+                    <h3>Navigasi</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Beranda</a></li>
+                        <li><a href="edukasi.html">Edukasi</a></li>
+                        <li><a href="index.html#panduan">Panduan</a></li>
+                        <li><a href="index.html#fakta">Fakta</a></li>
+                        <li><a href="tentang.html">Tentang</a></li>
+                    </ul>
+                </div>
 
-            <p>
-                Media edukasi untuk mengenal fenomena gempa bumi
-                melalui informasi dan pengetahuan ilmiah.
-            </p>
+                <div class="footer-col">
+                    <h3>Sumber data</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.bmkg.go.id/" target="_blank" rel="noopener noreferrer">BMKG</a></li>
+                        <li><a href="https://www.bnpb.go.id/" target="_blank" rel="noopener noreferrer">BNPB</a></li>
+                        <li><a href="https://www.bmkg.go.id/gempabumi/mitigasi/edukasi-gempabumi-tsunami" target="_blank" rel="noopener noreferrer">Edukasi Gempa BMKG</a></li>
+                    </ul>
+                </div>
 
-            <div class="footer-bottom">
-                <p>
-                    &copy; 2024 EduGempa. Seluruh hak cipta dilindungi undang-undang.
-                </p>
-
-                <ul class="footer-links">
-                    <!-- Navigates to the Konsep section on this page -->
-                    <li><a href="#konsep">Konsep</a></li>
-                    <!-- Navigates to the Isu section on this page -->
-                    <li><a href="#isu">Isu</a></li>
-                    <!-- Navigates to the Permasalahan section on this page -->
-                    <li><a href="#permasalahan">Permasalahan</a></li>
-                    <!-- Navigates to the Fakta section on this page -->
-                    <li><a href="#fakta">Fakta</a></li>
-                </ul>
+                <div class="footer-col">
+                    <h3>Kelompok</h3>
+                    <ul class="footer-links">
+                        <li>I Putu Agus Oka Pradana</li>
+                        <li>I Nyoman Adi Murdana Putra</li>
+                        <li>Muhamad Rizki Alhamid</li>
+                        <li>I Made Segara Putra</li>
+                    </ul>
+                </div>
             </div>
 
+            <div class="footer-bottom">
+                <p>© 2026 Kelompok Siaga Gempa</p>
+                <p>Dibuat untuk UTS Mata Kuliah Pemrograman Web</p>
+            </div>
         </div>
     </footer>
 
+    <script>
+        const toggle = document.querySelector(".nav-toggle");
+        const panel = document.querySelector(".nav-panel");
+
+        if (toggle && panel) {
+            toggle.addEventListener("click", () => {
+                const isOpen = panel.classList.toggle("open");
+                toggle.setAttribute("aria-expanded", String(isOpen));
+            });
+
+            panel.querySelectorAll("a").forEach((link) => {
+                link.addEventListener("click", () => {
+                    panel.classList.remove("open");
+                    toggle.setAttribute("aria-expanded", "false");
+                });
+            });
+        }
+    </script>
 </body>
 </html>
