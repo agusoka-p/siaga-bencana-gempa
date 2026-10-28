@@ -2,10 +2,10 @@
 Website Edukasi Mitigasi Bencana Gempa Bumi
 
 ## Anggota Kelompok
-1. I Putu Agus Oka Pradana - 2515091002 - Tugas
-2. I Nyoman Adi Murdana Putra - 2515091040 - Tugas
-3. Muhamad Rizki Alhamid - 2515091078 - Tugas
-4. I Made Segara Putra - 2515091097 - Tugas
+1. I Putu Agus Oka Pradana - 2515091002 - Membuat page panduan
+2. I Nyoman Adi Murdana Putra - 2515091040 - Membuat page edukasi dan membuat css global
+3. Muhamad Rizki Alhamid - 2515091078 - Membuat page fakta/artikel
+4. I Made Segara Putra - 2515091097 - Membuat page beranda dan tentang
     
 ## Deskripsi Website
 Tujuan, manfaat, dan sasaran pengguna.
