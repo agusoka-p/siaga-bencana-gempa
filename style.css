@@ -41,10 +41,7 @@ a {
     text-decoration: none;
 }
 
-button,
-input,
-select,
-textarea {
+button {
     font: inherit;
 }
 
@@ -266,10 +263,6 @@ button {
     color: var(--text-muted);
 }
 
-.section-alt .info-card p + p {
-    margin-top: 10px;
-}
-
 
 /* =========================
    SHARED — SPLIT LAYOUT
@@ -317,12 +310,6 @@ button {
     height: auto;
     object-fit: cover;
     border-radius: 18px;
-}
-
-.split-media figcaption {
-    margin-top: 10px;
-    color: var(--text-muted);
-    font-size: 13px;
 }
 
 
@@ -568,27 +555,6 @@ button {
 
 .about-content .button {
     margin-top: 10px;
-}
-
-.prose {
-    max-width: 900px;
-}
-
-.prose h3 {
-    margin: 28px 0 10px;
-    color: var(--blue-dark);
-    font-family: "Manrope", Arial, sans-serif;
-    font-size: 22px;
-}
-
-.prose > p,
-.prose .section-heading + h3 {
-    color: var(--text-muted);
-}
-
-.prose > p {
-    margin-bottom: 14px;
-    max-width: 760px;
 }
 
 /* --- Tentang: konsep dasar --- */
@@ -884,16 +850,6 @@ button {
     #tentang .split-media img {
         min-height: 260px;
         max-height: none;
-    }
-
-    /* Tentang */
-    .concept-layout {
-        grid-template-columns: 1fr;
-        gap: 24px;
-    }
-
-    .concept-intro > p:last-child {
-        max-width: none;
     }
 }
 
