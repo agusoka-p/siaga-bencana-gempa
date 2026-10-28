@@ -202,5 +202,7 @@ Daftar lengkap 12 referensi ada di halaman Tentang.
 **Gambar dan aset**
 - Diagram dan ilustrasi halaman Edukasi: Katalogika, Harian Jogja, Kompas.com, Zenius, dan AI (Gemini).
 - Ilustrasi halaman Artikel: dibuat sendiri dengan SVG.
-- Foto berita, `Hero.jpg`, dan `Tentang.jpg`: `[isi sumber]`
+- `Hero.jpg` dan `Tentang.jpg`:
+   - Foto oleh Eemir Hannn (Pexels), dimuat di [Radar TV, PMI Siapkan Operasi Kemanusiaan Besar untuk Bantu Korban Gempa NTT](https://radartv.disway.id/nasional/read/38121/pmi-siapkan-operasi-kemanusiaan-besar-untuk-bantu-korban-gempa-ntt)
+   - Ilustrasi bencana (Foto Canva), dimuat di [Berita UMS, Negeri di Atas Patahan: Benarkah Mitigasi Bencana Kita Sudah Memadai?](https://news.ums.ac.id/id/berita/negeri-di-atas-patahan-benarkah-mitigasi-bencana-kita-sudah-memadai/)
 - Font: [Google Fonts](https://fonts.google.com/) (DM Sans dan Manrope).
