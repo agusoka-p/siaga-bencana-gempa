@@ -68,7 +68,7 @@ button {
 }
 
 .section-heading {
-    max-width: 760px;
+    max-width: auto;
     margin-bottom: 32px;
 }
 
@@ -90,7 +90,7 @@ button {
 }
 
 .section-heading > p {
-    max-width: 650px;
+    max-width: auto;
     color: var(--text-muted);
 }
 
@@ -1294,17 +1294,4 @@ PANDUAN — RESPONSIVE MOBILE
 
 /* ==================================================
 PANDUAN END
-================================================== */
-
-/* ==================================================
-EDUKASI START
-================================================== */
-
-.article-content ul,
-.article-content ol {
-    padding-left: 24px;
-}
-
-/* ==================================================
-EDUKASI END
 ================================================== */
