@@ -150,17 +150,6 @@ Gambar dibuat responsif dengan `img { max-width: 100%; height: auto; }`.
 .concept-flow li::before { content: ""; position: absolute; left: -6px; width: 10px; height: 10px; border-radius: 50%; background: var(--green); }
 ```
 
-**Seksi setinggi satu layar (Panduan).** Di desktop, tiap seksi mengisi satu layar. Di tablet dan mobile aturan ini dilepas dan gambar dipindah ke atas teks.
-
-```css
-@media (min-width: 901px) {
-    .section-fullscreen { display: flex; align-items: center; min-height: calc(100vh - 73px); }
-}
-@media (max-width: 900px) {
-    .split-layout--media { flex-direction: column; }
-}
-```
-
 
 ## Struktur Folder
 
