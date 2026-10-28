@@ -193,7 +193,7 @@ siaga-gempa/
 - PBB. [SDG 11](https://sdgs.un.org/goals/goal11) dan [SDG 13](https://sdgs.un.org/goals/goal13)
 - Poster edukasi PREDIKT! (Preparedness for disaster toolkit)
 
-Daftar lengkap 12 referensi ada di halaman Tentang.
+Daftar lengkap 27 referensi ada di halaman Tentang.
 
 **Video:** HUMAS BNPB dan kanal edukasi kebencanaan di YouTube (lihat halaman Beranda).
 
